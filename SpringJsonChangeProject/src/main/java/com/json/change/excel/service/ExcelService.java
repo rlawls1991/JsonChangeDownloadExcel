@@ -129,7 +129,6 @@ public class ExcelService {
 			bodyCell = bodyRow.createCell(3);
 			bodyCell.setCellValue(dto.getTypeStr());
 		}
-
 		return workbook;
 	}
 
