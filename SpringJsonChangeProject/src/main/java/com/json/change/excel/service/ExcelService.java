@@ -67,6 +67,12 @@ public class ExcelService {
 				dto.setType(morpJsonArrayInType);
 				dto.setTypeStr(morpJsonArrayInTypeStr);
 				list.add(dto);
+				
+				
+				text = "";
+				morpJsonArrayInLemma = "";
+				morpJsonArrayInType = "";
+				morpJsonArrayInTypeStr = "";
 			}
 			
 		} catch (ParseException e) {
